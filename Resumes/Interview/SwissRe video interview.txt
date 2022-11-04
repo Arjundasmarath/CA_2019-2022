@@ -1,0 +1,34 @@
+Q:-Why are you looking out? What are you expecting next?
+
+During my past five years at datascience domain, I have had a great opportunity to really focus on improving my skills and using my expertise to help others. I have served as a mentor for three different new hires and led professional developments to introduce innovative techniques. I have been the source of information and I revel in the opportunity it has afforded me to guide others. I feel I need to learn from experts in my field as well. I want an environment that challenges me and resources to help me improve on the skills I already have. 
+
+Q:- Explain one of the project you worked on and how it aligns to this opportunity?
+
+I have started my career in 2017.
+Experience in developing and deploying supervised and unsupervised machine-learning models.Worked from ideation,converting business use CASE into technical problemand collecting the data,intoducing the pipeline and working on the analyses and modelling and deploying them into productn.Helped a US premium home decor company in forecasting future weeks sales,increasing sales
+by 13%. Applied ARIMA,xgboost,randomforest models for predicting the upcoming week sales. Used Azure databricks to run python codes for 17 billion customer sales records.Have biweekly calls with stakeholders to understand and innovate the solns.
+I think 
+able to listen to your business partners, interpret their needs and translate them into technical specifications and act on brining them to a product is one of the highlight of the work that im doing
+
+
+
+Q: One of the success stories?
+
+As a Analyst,one time I worked as part of a HR team.
+ One time,they wanted to build a attrition risk predictor to keep track of the best employee in the organisation.We worked with several managers and senior associates in organisation to understand the various reason of disengagement.Collected historical demographical data of employees and build a ML model to categorise the employees with high risk. It was a huge success,and company were able to cut short the attrition rate by 5%.
+
+Q: How will you react when one of claims stakeholders wants insight in claims portfolio?
+
+Insurers are investigating data analytics in insurance claims to help them in three main ways:
+1.Identify external trends impacting claims outcome
+2.Process claims faster and at a lower cost
+3.Complement claims adjusters' intuition and experience
+
+Finding answers to these challenges can improve the customer experience and reduce the cost to operate, all while minimizing indemnity in claims.
+
+
+ In addition to being able to manage different types of claims more effectively, using analytics in these areas improves financial outcomes by reducing cycle times. Keeping it specific is more effective and means that the insights delivered to the frontline claims team are actionable and manageable.
+
+
+
+

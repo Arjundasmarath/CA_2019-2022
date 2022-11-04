@@ -1,0 +1,49 @@
+web_hits	 
+Column Name	      Data Type
+*visit_id	          integer
+~visitor_id	          varchar
+page_name	          varchar
+~device_id	          integer
+visit_date	          datetime
+-------------------------------------------------------
+transactions	 
+Column Name	         Data Type
+*transaction_id              integer
+~visitor_id	              varchar
+booking_amount           double
+~device_id	              integer
+booking_date	              datetime
+---------------------------------------------------------
+devices	 
+Column Name	          Data Type
+*device_id	               integer
+device_name	               varchar
+ 
+Sample data:
+device_id               | device_name
+23498237498237 | PHONE.AR345890723
+28978992374987 | DESKTOP.W907gg08234
+09856079237190 | TABLET.TY9283759807
+
+Find the conversion rate for a month?
+Find the 5th highest visited in a month?
+
+
+
+
+with serial as
+(select 
+rank() over (order by visit_id desc) as rnk
+from web_hits w) x
+select visit_id where serial.rnk <6
+
+
+select count(Distinct w.visit_date /distinct t.booking_date ) from web_hits w
+inner join transaction t 
+on w.visitor_id = t.visitor_id 
+where w.visit_date < getdate() - 30
+
+
+A/B Testing?
+
+correlation and causation?

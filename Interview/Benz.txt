@@ -1,0 +1,29 @@
+speed - km
+0.5 sec
+i/p: time,speed  start
+
+0	0
+0.5	10
+1	30
+1.5	45
+2	60
+
+o/p : starttime,endtime,strtspeed,endspeed.
+
+
+0	2	0	60 
+
+
+
+
+
+
+
+
+
+
+end =pd.DataFrame()
+
+end['time'] = start['time'].max()- start['time'].min()
+
+end['speed'] = start['speed'].max()- start['speed'].min()	

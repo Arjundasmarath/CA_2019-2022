@@ -1,0 +1,49 @@
+
+Methods Tried:-
+
+	1. Linear Regression
+		1) Zero Sales
+		2) Non Zero Sales
+		3) Single Price Zone and Multiple Price zone
+		4) Item ID level and Productline level
+		5) One hot encoding for tentpoles and previous week sales
+		6) Interaction between holidays and previous week sales
+		7) Scatter Plot metrics table (R-Square, RMSE, MAE, MAPE)
+	
+	2. Multiple Regreesion Models 
+		1) Random Forest
+		2) XG Boost
+		3) Different Price Zones
+		4) Product Line level
+		5) Price Zone and Product line level
+		6) One Hot encoded Months
+		7) Z-Score (Quantity and Price)
+		8) Scatter Plot metrics table (R-Square, RMSE, MAE, MAPE)
+		
+	3) ARIMA 
+		1) Item ID level
+		2) Trend and Periodicity
+		3) Forecast for next 5 periods and comparrisson chart
+	
+	4) XG Boost Regression
+		1) Model based on multiple levels of ratio of Zero Sales vs Non Zero Sales (25%, 35% and 50%)
+		2) CV calculation for variability check in both training and test data.
+	
+	5) Croston and Holt Winters
+	
+	6) Clustering (K-Means, DBSCAN)
+		1) Cluster as one of the predictors
+		2) Model looped through clusters and product line
+		
+	7) Price and Cogs Imputations for Zero Sales records
+		
+	8) Multi-Phase Model
+		1) Built multiple classification models (Logistic regression, Ada Boost, Naive Bayes, XG boost)
+		2) Regreesion model for Non Zero Sales alone
+		3) Combined both model for final Prediction
+		4) Tried probabilistic Approac also (QZ Idea)
+		5) Ratio based(50%) and All the SKUs 
+		
+	9) Discriptive Table for all SKUs
+	
+	10) Similar SKU identification

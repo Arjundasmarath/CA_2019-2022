@@ -1,0 +1,35 @@
+
+
+df1 
+df2
+join
+
+Inner join - df1.Itemid = df2.itemid 
+
+self join - empid salary mgrid alias employee inner join empid=mgrid 
+
+left joins - 
+right joins
+
+cross joins
+
+outer join
+
+df3 = pd.merge(df1,df2[['Items''markets']], how = 'inner',on ='ItemID')
+
+
+Anagram
+
+aabb bbaa
+
+
+def check(s1,s2):
+
+	if (sorted(s1)==sorted(s2)):
+		print("Strings are Anagram")
+	else:
+		print("Strings are not anagram")
+
+
+
+

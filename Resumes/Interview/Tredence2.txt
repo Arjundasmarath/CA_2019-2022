@@ -1,0 +1,7 @@
+Cost function of linear reg
+Best cost fn in linear regression
+if knn has k=1,what is its bias and variance
+How do you build a classification model for a imbalanced dataset
+How does tpr and fpr values in a roc curve draw
+hierarchichal clustering
+
